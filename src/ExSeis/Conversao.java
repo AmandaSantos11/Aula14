@@ -6,7 +6,7 @@ public class Conversao {
         public double celcius;
         public double fahrenheit;
 
-        public double conversor(){
+        public void conversor(){
 
             System.out.println("Digite a temperatura em Celcius: ");
             celcius = digite.nextDouble();
@@ -14,7 +14,5 @@ public class Conversao {
             fahrenheit = ((9 * celcius) + 160) /5;
 
             System.out.println("Temperatura convertida: "+fahrenheit);
-
-            return fahrenheit;
         }
 }

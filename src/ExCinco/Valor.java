@@ -8,7 +8,7 @@ public class Valor {
     public static double vendas;
 
 
-    public double registroUsuario(){
+    public void registroUsuario(){
 
         System.out.println("Digite seu nome: ");
         nome = digite.next();
@@ -18,17 +18,17 @@ public class Valor {
 
         System.out.println("Quantas vendas foram efetuadas em reais?");
         vendas = digite.nextInt();
-
-        return 0;
     }
-    public double atualizacao(){
+    public void atualizacao(){
 
         double salarioAtual;
         double comissao = vendas * ((double) 15 / 100);
 
         salarioAtual = comissao + salarioFixo;
         System.out.println("-------");
-        System.out.println("Nome: " + nome  + "\n Valor de vendas: " + vendas + "\n Salário: " + salarioFixo + "\n Salário no final do mês: " + salarioAtual);
-        return 0;
+        System.out.println("Nome: " + nome);
+        System.out.println("Valor de vendas: " + vendas);
+        System.out.println("Salário: " + salarioFixo);
+        System.out.println("Salário no final do mês: " + salarioAtual);
     }
 }

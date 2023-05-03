@@ -3,7 +3,7 @@ package ExTres;
 public class Imc {
     public static double peso;
     public static double altura;
-    public double calculoImc(){
+    public void calculoImc(){
 
     double imc = peso / (altura*altura);
 
@@ -22,6 +22,5 @@ public class Imc {
         else if (imc > 40) {
             System.out.println("Classificação: Obesidade Grave");
         }
-        return imc;
 }
 }

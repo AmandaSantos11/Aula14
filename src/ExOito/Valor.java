@@ -5,7 +5,7 @@ public class Valor {
     public static double precoCusto;
     public static double acrescimo;
 
-    public double produto(){
+    public void produto(){
 
         System.out.println("Informe o preço de custo:  ");
         precoCusto = digite.nextDouble();
@@ -19,7 +19,5 @@ public class Valor {
 
         System.out.println("-----");
         System.out.println("Valor de venda do produto é: " + valorVenda);
-
-        return 0;
     }
 }

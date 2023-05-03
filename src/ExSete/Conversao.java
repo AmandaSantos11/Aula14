@@ -7,14 +7,12 @@ public class Conversao {
     public double real;
     public double cotacao;
 
-    public double valorDigitado(){
+    public void valorDigitado(){
 
         System.out.println("Cotação do dolar?");
         cotacao = digite.nextDouble();
-
-        return  0;
     }
-    public double conversao(){
+    public void conversao(){
 
         System.out.println("Digite quantos dolares você tem disponível: ");
         dolar = digite.nextDouble();
@@ -23,8 +21,6 @@ public class Conversao {
 
         System.out.println("-----");
         System.out.println("Você tem R$" + real + " em real");
-
-        return 0;
     }
 }
 
